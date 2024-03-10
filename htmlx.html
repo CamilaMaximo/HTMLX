@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://unpkg.com/htmx.org@1.9.10"></script>   
+    <title>HTMLX</title>
+</head>
+<body>
+    <button hx-get="https://jsonplaceholder.typicode.com/posts/1" hx-target="#resposta">
+        Pegar o JSON
+    </button>
+    <div id="resposta"></div>
+    
+</body>
+</html>
